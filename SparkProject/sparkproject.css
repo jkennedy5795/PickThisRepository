@@ -1,0 +1,99 @@
+body{
+    background: #323333;
+    color: white;
+    width: 98vw;
+}
+
+
+.textAndButton , #title{
+    margin: 25px;
+    text-align: center;
+}
+.textAndButton > a{
+    color: white
+}
+
+#mainContent{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    border:  white solid 5px; 
+    width:39vw;
+
+}
+#aboutMe{
+    text-align: center;
+    width: 39vw;
+    margin:auto;
+    border-bottom: 5px white solid;
+}
+#centerpiece {
+    width: 39vw;
+    display: flex;
+    margin: auto;
+}
+#facts{
+    text-align: center;
+    width: 39vw;
+    margin:auto;
+
+}
+
+.textInput, .textResponse{
+    font-size: 1.20em;
+    margin: auto;
+    
+}
+.textInput{
+    text-align: right 
+}
+.textResponse{
+    text-align: left
+}
+#factInput, #factOutput{
+    text-align: center;
+}
+#frame{
+    border: 30px solid #654321;
+    background: whitesmoke;
+    margin: auto;
+    display: flex;
+    zoom:100%;
+}
+
+#leftAnchor{
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+#rightAnchor{
+    position: fixed;
+    right: 10%;
+    top: 10%;
+}
+#monsterA, #kittenA, #robotA{
+    border: 2px solid black;
+    background: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    color: blue
+}
+
+#sponsor, #aboutHeader, #paragraph, #listHeader{
+    text-align: center;
+}
+#paragraph{
+    font-size: 1.6em;
+}
+#revature{
+    zoom: 10%;
+    margin: auto;
+    display: flex;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em
+}
