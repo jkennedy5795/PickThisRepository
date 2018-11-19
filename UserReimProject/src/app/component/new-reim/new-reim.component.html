@@ -1,0 +1,18 @@
+
+<label>Amount: </label>
+<input [(ngModel)]="amount" type="number" id="userAmt">
+<br>
+<label>Description: </label>
+<input [(ngModel)]="description" type="text" id="userDesc">
+<br>
+<label>Type: </label>
+<select [(ngModel)]="selectType" >
+  <option id="Other">Other</option>
+  <option id="Food">Food</option>
+  <option id="Travel">Travel</option>
+  <option id="Lodging">Lodging</option>
+</select>
+<br>
+<button (click)="submit()" >Submit</button>    
+
+

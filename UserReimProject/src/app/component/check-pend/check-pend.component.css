@@ -1,0 +1,14 @@
+
+#approved:active {
+    background:green;
+}
+#denied:active {
+    background:red;
+}
+#approved {
+    background:orange;
+}
+#denied {
+    background: orange;
+}
+

@@ -1,0 +1,14 @@
+#navId{
+    background: rgb(144, 144, 241);
+    margin: 10px;
+}
+ol {
+ list-style: none;
+ display:flex;
+ flex-direction: row; 
+ justify-content: space-around;
+ padding-bottom: 10px;
+ border: 2px solid lightgrey;
+
+}
+

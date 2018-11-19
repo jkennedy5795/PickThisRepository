@@ -1,0 +1,29 @@
+<button (click)="submit()">Check pending</button>
+<table class="table">
+    <thead class="thead-dark">
+        <tr >
+            <th scope="col">Reim ID: </th>
+            <th scope="col">Employee ID: </th>
+            <th scope="col">Amount: $</th>
+            <th scope="col">Type: </th>
+            <th scope="col">Desc: </th>
+            <th scope="col">Submitted: </th>
+            <th scope="col">Manager: </th>
+            <th scope="col">Resolved: </th>
+            <th scope="col">Status: </th>
+        </tr>
+    </thead>
+    <ng-container *ngFor="let key of reim">
+    <tr id = 'row' *ngIf="key.reim_status == 'pending' && key.author_id === user.user_id">
+      <td>{{key.reim_id}}</td>
+      <td>{{key.author_id}}</td>
+      <td>{{key.amount}}</td>
+      <td>{{key.reim_type}}</td>
+      <td>{{key.description}}</td>
+      <td>{{key.timestamp_submit}}</td>
+      <td>{{key.resolver_id}}</td>
+      <td>{{key.timestamp_resolve}}</td>
+      <td>{{key.reim_status}}</td>
+    </tr>
+  </ng-container>
+</table>

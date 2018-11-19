@@ -1,0 +1,34 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 5px solid black;
+    background: rgb(144, 144, 241);
+  
+}
+#loginBox{
+    border-left: 2px solid black;
+    background: rgb(144, 144, 241);
+    width: 20%; 
+    padding: 10px
+}
+
+#userIn , #passIn{
+    width: 90%;
+    margin: 0 auto
+}
+#button{
+    text-align: center;
+    margin: 5px
+}
+#company_name{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#title{
+    font-size: 3em
+}
+#subtitle{
+    font-size: 1.5em
+}
